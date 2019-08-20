@@ -4,3 +4,6 @@ This class creates a gradient frame using the tkinter library. In it, you can ad
 # How to use it ?
 Just create an instance of GradientFrame passing as a parameter the frame where it will be placed, 
 frame size and gradient colors (from, to).
+
+# Requirement:
+Python 3.x
