@@ -94,7 +94,7 @@ class GradientFrame(Canvas):
             self.__geometry[0] = kw["width"]
 
         # Configura o Canvas e desenha o degradê.
-        super().config(**kw)
+        super().config(cnf, **kw)
         self.__draw_gradient()
 
     def configure(self, cnf = None, **kw):
